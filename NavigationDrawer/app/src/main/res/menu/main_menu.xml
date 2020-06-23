@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+
+        <menu>
+
+            <item
+                android:id="@+id/homeid"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Home" />
+
+            <item
+                android:id="@+id/airportid"
+                android:icon="@drawable/ic_local_airport_black_24dp"
+                android:title="Airport" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Communication">
+
+
+        <menu>
+
+            <item
+                android:id="@+id/phoneid"
+                android:icon="@drawable/ic_local_phone_black_24dp"
+                android:title="Phone" />
+            <item
+                android:id="@+id/shippingid"
+                android:icon="@drawable/ic_local_shipping_black_24dp"
+                android:title="Shipping" />
+
+        </menu>
+
+    </item>
+
+</menu>
